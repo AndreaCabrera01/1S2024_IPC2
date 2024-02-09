@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Inicio del archivo XML -->
+<cursosSistemas> <!-- Inicio de la raíz del archivo XML -->
+    <curso nombre="Lenguajes Formales y de Programación">  <!-- Elemento Curso con un atributo de nombre -->
+        <seccion>A</seccion> <!-- Elemento Sección -->
+        <aula>216</aula> <!-- Elemento Aula -->
+        <estudiantes> <!-- Elemento Estudiantes que contiene dentro múltiples elementos de estudiante -->
+            <estudiante> <!-- Elemento Estudiante -->
+                <nombre>Estudiante1</nombre> <!-- Elemento Nombre -->
+                <apellido>Apellido1</apellido> <!-- Elemento Apellido -->
+                <carnet>21589</carnet> <!-- Elemento Carnet -->
+                <nota>70</nota> <!-- Elemento Nota -->
+            </estudiante> <!-- Fin del elemento Estudiante -->
+            <estudiante>
+                <nombre>Estudiante2</nombre>
+                <apellido>Apellido2</apellido>
+                <carnet>10501</carnet>
+                <nota>61</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante3</nombre>
+                <apellido>Apellido3</apellido>
+                <carnet>97658</carnet>
+                <nota>80</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante4</nombre>
+                <apellido>Apellido4</apellido>
+                <carnet>13465</carnet>
+                <nota>42</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante5</nombre>
+                <apellido>Apellido5</apellido>
+                <carnet>12345</carnet>
+                <nota>36</nota>
+            </estudiante>
+        </estudiantes> <!-- Fin del elemento Estudiantes -->
+    </curso> <!-- Fin del elemento Curso -->
+    <curso nombre="Estructuras de Datos"> 
+        <seccion>B</seccion>
+        <aula>304</aula>
+        <estudiantes>
+            <estudiante>
+                <nombre>Estudiante1</nombre>
+                <apellido>Apellido1</apellido>
+                <carnet>10000</carnet>
+                <nota>80</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante2</nombre>
+                <apellido>Apellido2</apellido>
+                <carnet>94785</carnet>
+                <nota>63</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante3</nombre>
+                <apellido>Apellido3</apellido>
+                <carnet>24766</carnet>
+                <nota>85</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante4</nombre>
+                <apellido>Apellido4</apellido>
+                <carnet>31245</carnet>
+                <nota>87</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Estudiante5</nombre>
+                <apellido>Apellido5</apellido>
+                <carnet>14568</carnet>
+                <nota>54</nota>
+            </estudiante>
+        </estudiantes>
+    </curso>
+</cursosSistemas> <!-- Fin de la raíz del archivo XML -->
