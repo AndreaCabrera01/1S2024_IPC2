@@ -71,7 +71,7 @@ def LeerArchivoMD(rutaArchivo):
             cursoObj.estudiantes.append(estudiante)
         listaCursos.append(cursoObj)
 
-def EscribirArchivoET(rutaArchivo):
+def EscribirArchivoET():
     #Creando el nodo raíz
     root = ET.Element('cursosSistemas')
 
@@ -94,7 +94,7 @@ def EscribirArchivoET(rutaArchivo):
     tree.write('promedioPorCurso_ET.xml', encoding='utf-8', xml_declaration=True) # Escribir el archivo
 
 
-def EscribirArchivoMD(rutaArchivo):
+def EscribirArchivoMD():
     #Con minidom:
     doc = minidom.Document() # Crear el documento
     root = doc.createElement('cursosSistemas') # Crear el nodo raíz
@@ -124,7 +124,7 @@ def EscribirArchivoMD(rutaArchivo):
 
 if __name__ == '__main__':
     opc = 0
-    rutaArchivo = 'archivo.xml'
+    rutaArchivo = input('Ingrese la ruta de su archivo: ')
     while opc != 6:
         opc = Menu()
         if opc == 1:
@@ -137,15 +137,15 @@ if __name__ == '__main__':
 
         elif opc == 3:
             print('')
-            EscribirArchivoET(rutaArchivo)
+            EscribirArchivoET()
 
         elif opc == 4:
             print('')
-            EscribirArchivoMD(rutaArchivo)
+            EscribirArchivoMD()
 
         elif opc == 5:
             listaCursos = []
-            print('Datos limpiados')
+            print('Datos limpios')
         
         elif opc == 6:
             print('Adiós!')
