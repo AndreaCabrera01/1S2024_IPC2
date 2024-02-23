@@ -1,0 +1,20 @@
+ digraph G { 
+
+        node [shape=plaintext]; 
+
+        edge [style=invis]; 
+
+
+        label = "nombrePiso =  Piso 1 - PATRON = A01"
+        
+
+
+        piso [
+ label=<<TABLE border = "1" cellspacing="0" cellpadding="10">
+                 <tr><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>         </tr>
+         <tr><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>         </tr>
+         <tr><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>         </tr>
+         <tr><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>         </tr>
+</TABLE>>
+ shape=none
+ ];}
