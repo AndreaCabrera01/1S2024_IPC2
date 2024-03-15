@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Inicio del archivo XML -->
+<entrada> 
+    <imagen>
+        <nombre>Imagen1</nombre>
+        <url>imgs/1.jpg</url>
+    </imagen>
+    <imagen>
+        <nombre>Imagen2</nombre>
+        <url>imgs/2.jpg</url>
+    </imagen>
+</entrada>
