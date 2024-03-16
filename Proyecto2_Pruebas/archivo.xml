@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+    <maquetas>
+        <maqueta>
+            <nombre> maqueta1 </nombre>
+            <filas>9 </filas>
+            <columnas> 11 </columnas>
+            <entrada>
+                <fila> 1 </fila>
+                <columna> 3 </columna>
+            </entrada>
+            <objetivos>
+                <objetivo>
+                    <nombre> A </nombre>
+                    <fila> 2</fila>
+                    <columna> 6 </columna>
+                </objetivo>
+                <objetivo>
+                    <nombre>B</nombre>
+                    <fila> 3 </fila>
+                    <columna> 8 </columna>
+                </objetivo>
+                <objetivo>
+                    <nombre> C </nombre>
+                    <fila> 3 </fila>
+                    <columna> 3 </columna>
+                </objetivo>
+                <objetivo>
+                    <nombre> D </nombre>
+                    <fila> 8 </fila>
+                    <columna> 1 </columna>
+                </objetivo>
+            </objetivos>
+            <estructura> *-*-*****-*-----------*****--**-*----****--*-*--*----**-******--*--*-------********-*------*------- </estructura>
+        </maqueta>
+        <maqueta>
+            <nombre> 1234 </nombre>
+            <filas> 4 </filas>
+            <columnas> 4 </columnas>
+            <entrada>
+                <fila> 3 </fila>
+                <columna> 2 </columna>
+            </entrada>
+            <objetivos>
+                <objetivo>
+                    <nombre> O1 </nombre>
+                    <fila> 2 </fila>
+                    <columna> 1 </columna>
+                </objetivo>
+                <objetivo>
+                    <nombre> X1 </nombre>
+                    <fila> 0 </fila>
+                    <columna> 2 </columna>
+                </objetivo>
+            </objetivos>
+            <estructura>    ----
+                            *-*-
+                            *---
+                            *--*
+            </estructura>
+        </maqueta>
+    </maquetas>
+</config>
