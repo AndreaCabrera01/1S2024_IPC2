@@ -52,6 +52,11 @@
                     <fila> 0 </fila>
                     <columna> 2 </columna>
                 </objetivo>
+                <objetivo>
+                    <nombre> C </nombre>
+                    <fila> 0 </fila>
+                    <columna> 0 </columna>
+                </objetivo>
             </objetivos>
             <estructura>    ----
                             *-*-
